@@ -36,6 +36,11 @@ nav .menu {
     
 }
 
+nav .menu a {
+    margin: auto;
+    text-align: center;
+}
+
 nav .menu a:hover {
     font-weight: bold;
 }
@@ -73,8 +78,8 @@ nav .burgerMenu {
 }
 
 .logo {
-    width: 15%;
-    justify-content: space-evenly;
+    width: 30%;
+    justify-content: flex-start;
 }
 
 .logo img {
@@ -83,13 +88,12 @@ nav .burgerMenu {
 }
 
 .logo h4 {
-    display: inline;
-    margin: auto;
+    margin-left: 20px;
     font-size: 18px;
 }
 
 .menu {
-    width: 85%;
+    width: 70%;
     justify-content: flex-end;
 }
 
